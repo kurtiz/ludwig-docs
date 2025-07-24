@@ -19,12 +19,12 @@ export default function Layout({children}: { children: ReactNode }) {
                 items: [
                     {
                         text: 'Getting Started',
-                        url: '/docs/ui',
+                        url: '/docs/getting-started',
                         icon: <Book/>,
                     },
                     {
                         text: 'Components',
-                        url: '/docs/ui/components',
+                        url: '/docs/components',
                         icon: <ComponentIcon/>,
                     },
                 ],
