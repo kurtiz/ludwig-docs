@@ -52,7 +52,7 @@ export default function Layout({children}: { children: ReactNode }) {
                                 </div>
                                 <p className="font-medium">Getting Started</p>
                                 <p className="text-fd-muted-foreground text-sm">
-                                    Learn to use Fumadocs on your docs site.
+                                    Learn to use Ludwig as a starting point for your next project.
                                 </p>
                             </NavbarMenuLink>
 
