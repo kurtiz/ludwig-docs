@@ -1,4 +1,4 @@
-import type {BaseLayoutProps} from 'fumadocs-ui/layouts/shared';
+import type {BaseLayoutProps, LinkItemType} from 'fumadocs-ui/layouts/shared';
 
 /**
  * Shared layout configurations
@@ -23,14 +23,16 @@ export const baseOptions: BaseLayoutProps = {
                 />
             </>
         ),
+        transparentMode: 'top',
     },
     githubUrl: 'https://github.com/ludwig-framework/ludwig',
     // see https://fumadocs.dev/docs/ui/navigation/links
-    links: [
-        {
-            text: '',
-            url: '/',
-            active: 'nested-url',
-        },
-    ],
 };
+
+export const linkItems: LinkItemType[] = [
+    {
+        text: '',
+        url: '/',
+        active: 'nested-url',
+    },
+]
