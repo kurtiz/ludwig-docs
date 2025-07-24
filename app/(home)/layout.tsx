@@ -35,10 +35,10 @@ export default function Layout({children}: { children: ReactNode }) {
                 children: (
                     <NavbarMenu>
                         <NavbarMenuTrigger>
-                            <Link href="/docs/ui">Documentation</Link>
+                            <Link href="/docs/">Documentation</Link>
                         </NavbarMenuTrigger>
                         <NavbarMenuContent className="text-[15px]">
-                            <NavbarMenuLink href="/docs/ui" className="md:row-span-2">
+                            <NavbarMenuLink href="/docs/getting-started" className="md:row-span-2">
                                 <div className="-mx-3 -mt-3">
                                     <Image
                                         src={Preview}
@@ -57,7 +57,7 @@ export default function Layout({children}: { children: ReactNode }) {
                             </NavbarMenuLink>
 
                             <NavbarMenuLink
-                                href="/docs/ui/components"
+                                href="/docs/components"
                                 className="lg:col-start-2"
                             >
                                 <ComponentIcon
@@ -69,7 +69,7 @@ export default function Layout({children}: { children: ReactNode }) {
                             </NavbarMenuLink>
 
                             <NavbarMenuLink
-                                href="/docs/ui/openapi"
+                                href="/docs/openapi"
                                 className="lg:col-start-2"
                             >
                                 <Server className="bg-fd-primary text-fd-primary-foreground p-1 mb-2 rounded-md"/>
@@ -81,7 +81,7 @@ export default function Layout({children}: { children: ReactNode }) {
                             </NavbarMenuLink>
 
                             <NavbarMenuLink
-                                href="/docs/ui/markdown"
+                                href="/docs/markdown"
                                 className="lg:col-start-3 lg:row-start-1"
                             >
                                 <Pencil className="bg-fd-primary text-fd-primary-foreground p-1 mb-2 rounded-md"/>
@@ -92,7 +92,7 @@ export default function Layout({children}: { children: ReactNode }) {
                             </NavbarMenuLink>
 
                             <NavbarMenuLink
-                                href="/docs/ui/manual-installation"
+                                href="/docs/manual-installation"
                                 className="lg:col-start-3 lg:row-start-2"
                             >
                                 <PlusIcon className="bg-fd-primary text-fd-primary-foreground p-1 mb-2 rounded-md"/>
